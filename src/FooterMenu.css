@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+html, body
+{
+    height: 100%;
+}
+
+body
+{
+    margin: 0;
+    background-color: #fff;
+    overflow: hidden;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.container-icons-menu-footer
+{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    left: 0;
+    width: 319px;
+    display: table;
+    margin: 0 auto;
+    background: linear-gradient(146.03deg, #4C5AFE 0%, #EE59F9 100.51%); 
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius:15px;
+}
+
+.container-icons-menu-footer a
+{
+    position: relative;
+    width: 25%;
+    display: table-cell;
+    padding: 10px 20px;
+    z-index: 50;
+
+}
+
+#indicator
+{
+    position: absolute;
+    left: 11%;
+    top: 48px;
+    bottom: 0;
+    width: 8px;
+    height: 8px;
+    background-color: #ffff00;
+    border-radius: 5px;
+    transition: 0.2s ease left;
+}
+
+.container-texts{
+    display: flex;
+}
+
+#home-text{
+    position: absolute;
+    left: 24px;
+    top: 30px;
+    color: #fff;
+    font-size: 10px;
+    font-weight:bold;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+#feed-text{
+    position: absolute;
+    left: 107px;
+    top: 30px;
+    color: #fff;
+    font-size: 10px;
+    font-weight:bold;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+#pay-text{
+    position: absolute;
+    left: 183px;
+    top: 30px;
+    color: #fff;
+    font-size: 10px;
+    font-weight:bold;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+#config-text{
+    position: absolute;
+    left: 263px;
+    top: 30px;
+    color: #fff;
+    font-size: 10px;
+    font-weight:bold;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.link-feed-active{
+    left: 115px !important;
+    transition: 0.2s ease left !important;
+}
+
+.link-payment-active{
+    left: 195px !important;
+    transition: 0.2s ease left !important;
+}
+
+.link-config-active{
+    left: 275px !important;
+    transition: 0.2s ease left !important;
+}
+
+.icon-base{
+    stroke:"#ffffff" !important;
+    width: 30px;
+    height:30px;
+}
+
+.curve-white{
+    position: absolute;
+    left: 5px;
+    top: 0px;
+    width: 68px;
+    height: 26px;
+    background-image: url('./img/curve-white.svg');
+    transition: 0.2s ease left !important;
+}
+
+.curve-white-feed-active{
+    position: absolute;
+    left: 85px;
+    transition: 0.2s ease left !important;
+}
+
+.curve-white-payment-active{
+    position: absolute;
+    left: 165px;
+    transition: 0.2s ease left !important;
+}
+
+.curve-white-config-active{
+    position: absolute;
+    left: 245px;
+    transition: 0.2s ease left !important;
+}
+
+.circle{
+    background: linear-gradient(180deg, #E500CE 0%, #9c27b0 100%);
+    width:50px;
+    height:50px;
+    border-radius:50px;
+    margin-top:-26px;
+    margin-left: 9px;
+    display: flex;
+    justify-content: center;
+}
+
+.icon-home-start{
+    //opacity: 0;
+    top: -32px;
+    //transition: 0.2s ease all !important;
+}
+
+.icon-start{
+    //opacity: 0;
+    top: 0px;
+    transition: 0.2s ease all !important;
+}
+
+.icon-in{
+    animation-duration: 0.5s;
+    animation-name: icon-in;
+    animation-fill-mode: forwards;
+}
+
+@keyframes icon-in {
+    0% { opacity: 1; top: 0px }
+    25% { opacity: 0; top: 10px }
+    50% { opacity: 0; top: -28px }
+    100% { opacity: 1; top: -32px }
+}
+
+.icon-out{
+    animation-duration: 0.5s;
+    animation-name: icon-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes icon-out {
+    0% { opacity: 1; top: -32px }
+    25% { opacity: 0; top: -28px }
+    50% { opacity: 0; top: 10px }
+    100% { opacity: 1; top: 0px }
+}
+
+.text-in{
+    animation-duration: 0.5s;
+    animation-name: text-in;
+    animation-fill-mode: forwards;
+}
+
+@keyframes text-in {
+    0% { opacity: 1; top: 0px }
+    25% { opacity: 0; top: 10px }
+    50% { opacity: 0; top: -28px }
+    100% { opacity: 1; top: -32px }
+}
+
+.text-out{
+    animation-duration: 0.5s;
+    animation-name: text-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes text-out {
+    0% { opacity: 1; top: -32px }
+    25% { opacity: 0; top: -28px }
+    50% { opacity: 0; top: 10px }
+    100% { opacity: 1; top: 0px }
+}
+
+.text-start{
+    opacity: 0;
+}
+
+.mini-out{
+    opacity: 0;
+    transition: 0.2s ease all !important;
+}
+
+.mini-in{
+    opacity: 1;
+    transition: 0.2s ease all !important;
+}
