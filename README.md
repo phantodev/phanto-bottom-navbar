@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# Check the Bottom Nav Bar Design and Interactions Bellow! Nice right?
+# Check the Design and Interactions Bellow!
 
 <img src="https://s6.gifyu.com/images/phanto-bottom-navbar.gif">
 
