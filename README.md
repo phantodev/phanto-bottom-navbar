@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Check the Bottom Nav Bar Design and Interactions Bellow! Nice right?
+
+<img src="https://s6.gifyu.com/images/phanto-bottom-navbar.gif">
+
 ## Available Scripts
 
 In the project directory, you can run:
